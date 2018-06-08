@@ -1,0 +1,7 @@
+<form role="form">
+	<p> Are you sure t delete the movie {{movieDelete.movie.title}} ?</p>
+	<div>
+		<input type="submit" class="btn btn-danger" ng-click="movieDelete.deleteMovie()" value="yes">
+		<button ng-click="movieDelete.back()" type="button" class="btn btn-default">NO</button>
+	</div>
+</form>
